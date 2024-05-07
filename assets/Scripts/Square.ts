@@ -1,11 +1,11 @@
-import { _decorator, Component, Node, repeat, UITransform } from 'cc';
+import { _decorator, CCFloat, Component, Node, repeat, UITransform } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Square')
 export class Square extends Component {
 
 	// This is properties for the object
-	@property({type: Number})
+	@property({type: CCFloat})
 	private speed: 1
 
 	// This is when the game start rendering
